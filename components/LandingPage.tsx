@@ -3,7 +3,7 @@ import { Logo } from "@/assets";
 import { FileText, Send } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import {Button} from "@heroui/button";
+import { Button } from "@heroui/button";
 
 const LandingPage = () => {
   return (
@@ -22,13 +22,13 @@ const LandingPage = () => {
             A Full Stack web developer.
           </span>
         </h1>
-        <div className="mt-4 flex flex-wrap items-center gap-x-1.5 gap-y-2 text-base md:text-lg text-neutral-500 whitespace-pre-wrap">
+        <div className="mt-4 flex flex-wrap items-center gap-x-1.5 gap-y-2 text-base md:text-xl text-neutral-500 whitespace-pre-wrap">
           <span className="whitespace-pre-wrap">
             I build interactive web apps using{" "}
           </span>
           <a
             target="_blank"
-            className="inline-flex items-center text-sm bg-black/5 dark:bg-white/15 border border-dashed dark:border-white/30 border-black/20 py-1 px-2 rounded-md skill-inner-shadow self-end text-black dark:text-white"
+            className="inline-flex items-center text-base bg-black/5 dark:bg-white/15 border border-dashed dark:border-white/30 border-black/20 py-1 px-2 rounded-md skill-inner-shadow self-end text-black dark:text-white"
             href="https://www.typescriptlang.org/"
           >
             <div className="size-4 shrink-0">
@@ -40,12 +40,12 @@ const LandingPage = () => {
                 ></path>
               </svg>
             </div>
-            <p className="ml-1 text-sm font-bold">Typescript</p>
+            <p className="ml-1 text-base font-bold">Typescript</p>
           </a>
           <span className="whitespace-pre-wrap">, </span>
           <a
             target="_blank"
-            className="inline-flex items-center text-sm bg-black/5 dark:bg-white/15 border border-dashed dark:border-white/30 border-black/20 py-1 px-2 rounded-md skill-inner-shadow self-end text-black dark:text-white"
+            className="inline-flex items-center text-base bg-black/5 dark:bg-white/15 border border-dashed dark:border-white/30 border-black/20 py-1 px-2 rounded-md skill-inner-shadow self-end text-black dark:text-white"
             href="https://react.dev/"
           >
             <div className="size-4 shrink-0">
@@ -56,12 +56,12 @@ const LandingPage = () => {
                 </g>
               </svg>
             </div>
-            <p className="ml-1 text-sm font-bold">React</p>
+            <p className="ml-1 text-base font-bold">React</p>
           </a>
           <span className="whitespace-pre-wrap">, </span>
           <a
             target="_blank"
-            className="inline-flex items-center text-sm bg-black/5 dark:bg-white/15 border border-dashed dark:border-white/30 border-black/20 py-1 px-2 rounded-md skill-inner-shadow self-end text-black dark:text-white"
+            className="inline-flex items-center text-base bg-black/5 dark:bg-white/15 border border-dashed dark:border-white/30 border-black/20 py-1 px-2 rounded-md skill-inner-shadow self-end text-black dark:text-white"
             href="https://nextjs.org/"
           >
             <div className="size-4 shrink-0">
@@ -100,12 +100,12 @@ const LandingPage = () => {
                 </defs>
               </svg>
             </div>
-            <p className="ml-1 text-sm font-bold">Next.js</p>
+            <p className="ml-1 text-base font-bold">Next.js</p>
           </a>
           <span className="whitespace-pre-wrap">, </span>
           <a
             target="_blank"
-            className="inline-flex items-center text-sm bg-black/5 dark:bg-white/15 border border-dashed dark:border-white/30 border-black/20 py-1 px-2 rounded-md skill-inner-shadow self-end text-black dark:text-white"
+            className="inline-flex items-center text-base bg-black/5 dark:bg-white/15 border border-dashed dark:border-white/30 border-black/20 py-1 px-2 rounded-md skill-inner-shadow self-end text-black dark:text-white"
             href="https://bun.sh/"
           >
             <div className="size-4 shrink-0">
@@ -149,12 +149,12 @@ const LandingPage = () => {
                 ></path>
               </svg>
             </div>
-            <p className="ml-1 text-sm font-bold">Bun</p>
+            <p className="ml-1 text-base font-bold">Bun</p>
           </a>
           <span className="whitespace-pre-wrap"> and </span>
           <a
             target="_blank"
-            className="inline-flex items-center text-sm bg-black/5 dark:bg-white/15 border border-dashed dark:border-white/30 border-black/20 py-1 px-2 rounded-md skill-inner-shadow self-end text-black dark:text-white"
+            className="inline-flex items-center text-base bg-black/5 dark:bg-white/15 border border-dashed dark:border-white/30 border-black/20 py-1 px-2 rounded-md skill-inner-shadow self-end text-black dark:text-white"
             href="https://www.postgresql.org/"
           >
             <div className="size-4 shrink-0">
@@ -171,7 +171,7 @@ const LandingPage = () => {
                 ></path>
               </svg>
             </div>
-            <p className="ml-1 text-sm font-bold">PostgreSQL</p>
+            <p className="ml-1 text-base font-bold">PostgreSQL</p>
           </a>
           <span className="whitespace-pre-wrap">. With a focus on </span>
           <b className="whitespace-pre-wrap">UI</b>
@@ -186,11 +186,11 @@ const LandingPage = () => {
         </div>
       </div>
       <div className="mt-8 flex gap-4">
-          <Button color="primary"><FileText /> Resume / CV</Button>
+        <Button color="primary"><FileText /> Resume / CV</Button>
         <a className="hover:cursor-pointer" href="/contact">
           <button
             data-slot="button"
-            className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive btn-inner-shadow hover:cursor-pointer h-9 px-4 py-2 has-[&gt;svg]:px-3 inset-shadow-indigo-500"
+            className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-base font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive btn-inner-shadow hover:cursor-pointer h-9 px-4 py-2 has-[&gt;svg]:px-3 inset-shadow-indigo-500"
           >
             <Send />
             Get in touch
